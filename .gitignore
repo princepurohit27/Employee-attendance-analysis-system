@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Environment secrets
+.env
+
+# Generated report/chart outputs (keep the folders, ignore the generated files)
+outputs/reports/*.csv
+outputs/charts/*.png
+!outputs/reports/.gitkeep
+!outputs/charts/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
